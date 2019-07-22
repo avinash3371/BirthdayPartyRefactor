@@ -37,8 +37,8 @@ public class BirthdayOrderControllerTest {
 		Balloon cartItem2 = new Balloon.BalloonBuilder(BalloonColor.SILVER, BalloonMaterial.LATEX).build();
 		birthdayOrder.orderBalloons(cartItem2, 9);
 
-		Cake mangoCake = new HalfSheetSizeDecorator(new ChocolateWithVannilaFrostingCake(new StandardCake()));
-		birthdayOrder.orderCake(mangoCake);
+		Cake chocolateCake = new HalfSheetSizeDecorator(new ChocolateWithVannilaFrostingCake(new StandardCake()));
+		birthdayOrder.orderCake(chocolateCake);
 
 		birthdayOrder.orderCake(new StandardCake());
 
