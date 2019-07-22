@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.birthdaypaty.test.BirthdayOrderControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-07-22T04:26:21" hostname="avinash.shende" time="0.012">
+  <properties/>
+  <testcase name="testBirthdayOrder" classname="com.birthdaypaty.test.BirthdayOrderControllerTest" time="0.01"/>
+  <testcase name="testBirthdayOrderNew" classname="com.birthdaypaty.test.BirthdayOrderControllerTest" time="0.002"/>
+  <system-out><![CDATA[Balloons ordered; RED, MYLAR, 4 ,false
+Balloons ordered; BLUE, LATEX, 7 ,true
+cake ordered; MANGO, STRABERRY, RECTANGLE, FULLSHEET, YELLOW
+Balloons ordered; BLUE, MYLAR, 10 ,true
+Balloons ordered; SILVER, LATEX, 9 ,false
+cake ordered; CHOCOLATE, BUTTERMILK, RECTANGLE, HALFSHEET, WHITE
+cake ordered; VANNILA, BUTTERMILK, ROUND, EIGHTINCH, WHITE
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
